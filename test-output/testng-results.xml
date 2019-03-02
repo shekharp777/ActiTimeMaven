@@ -11,16 +11,16 @@
       <![CDATA[Expected build No is :(build 39769)]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-02-26T13:41:19Z" name="Default suite" finished-at="2019-02-26T13:41:35Z" duration-ms="16585">
+  <suite started-at="2019-03-02T09:55:13Z" name="Default suite" finished-at="2019-03-02T09:55:37Z" duration-ms="23878">
     <groups>
     </groups>
-    <test started-at="2019-02-26T13:41:19Z" name="Default test" finished-at="2019-02-26T13:41:35Z" duration-ms="16585">
+    <test started-at="2019-03-02T09:55:13Z" name="Default test" finished-at="2019-03-02T09:55:37Z" duration-ms="23878">
       <class name="com.actiTime.test.TC04Test">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-02-26T13:41:19Z" name="preCondition" finished-at="2019-02-26T13:41:23Z" duration-ms="4273" status="PASS">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-03-02T09:55:13Z" name="preCondition" finished-at="2019-03-02T09:55:21Z" duration-ms="7452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testTC04()[pri:4, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-02-26T13:41:23Z" name="testTC04" finished-at="2019-02-26T13:41:33Z" duration-ms="9952" status="PASS">
+        <test-method signature="testTC04()[pri:4, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-03-02T09:55:21Z" name="testTC04" finished-at="2019-03-02T09:55:35Z" duration-ms="13992" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Element is present: ]]>
@@ -33,7 +33,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testTC04 -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-02-26T13:41:33Z" name="postCondition" finished-at="2019-02-26T13:41:35Z" duration-ms="2328" status="PASS">
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-03-02T09:55:35Z" name="postCondition" finished-at="2019-03-02T09:55:37Z" duration-ms="2366" status="PASS">
           <params>
             <param index="0">
               <value>
