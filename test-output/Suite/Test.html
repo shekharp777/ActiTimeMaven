@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Mar 02 15:15:27 IST 2019</td>
+<td>Started on:</td><td>Tue Mar 12 09:29:05 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>52 seconds (52829 ms)</td>
+<tr><td>Total time:</td><td>72 seconds (72473 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,50 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.actiTime.test.TC05Test.testTC05()'><b>testTC05</b><br>Test class: com.actiTime.test.TC05Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Cannot inject @Test annotated Method [testTC05] with [interface org.openqa.selenium.WebElement].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2067233363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2067233363'><pre>org.testng.TestNGException: 
+Cannot inject @Test annotated Method [testTC05] with [interface org.openqa.selenium.WebElement].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:914)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.actiTime.test.TC05Test@4659191b</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,11 +119,28 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.actiTime.test.TC02Test.testTC02()'><b>testTC02</b><br>Test class: com.actiTime.test.TC02Test<br/>
-<a href="#Output-105393903" onClick='toggleBox("Output-105393903", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.actiTime.test.TC01Test.testTC01()'><b>testTC01</b><br>Test class: com.actiTime.test.TC01Test<br/>
+<a href="#Output-655059806" onClick='toggleBox("Output-655059806", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-105393903" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-105393903">
+<a href="#Output-655059806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-655059806">
+Title is matching: 
+Expected title is :actiTIME - Login<br/>
+Actual Title is   :actiTIME - Login<br/>
+Title is matching: 
+Expected title is :actiTIME - Enter Time-Track<br/>
+Actual Title is   :actiTIME - Enter Time-Track<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.actiTime.test.TC01Test@27f981c6</td></tr>
+<tr>
+<td title='com.actiTime.test.TC02Test.testTC02()'><b>testTC02</b><br>Test class: com.actiTime.test.TC02Test<br/>
+<a href="#Output-1539827598" onClick='toggleBox("Output-1539827598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1539827598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1539827598">
 user name :admin<br/>
 password :abc<br/>
 Element is present: <br/>
@@ -114,34 +175,37 @@ Expected Error message is :Username or Password is invalid. Please try again.<br
 </td>
 <td></td>
 <td>19</td>
-<td>com.actiTime.test.TC02Test@6253c26</td></tr>
+<td>com.actiTime.test.TC02Test@1b11171f</td></tr>
 <tr>
 <td title='com.actiTime.test.TC03Test.testTC03()'><b>testTC03</b><br>Test class: com.actiTime.test.TC03Test<br/>
-<a href="#Output-1373254373" onClick='toggleBox("Output-1373254373", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-713939266" onClick='toggleBox("Output-713939266", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1373254373" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1373254373">
+<a href="#Output-713939266" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-713939266">
 Actual version is   :actiTIME 2017.4<br/>
 Expected version is :actiTIME 2017.4<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.actiTime.test.TC03Test@290222c1</td></tr>
+<td>com.actiTime.test.TC03Test@1151e434</td></tr>
 <tr>
 <td title='com.actiTime.test.TC04Test.testTC04()'><b>testTC04</b><br>Test class: com.actiTime.test.TC04Test<br/>
-<a href="#Output-956448191" onClick='toggleBox("Output-956448191", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-121463477" onClick='toggleBox("Output-121463477", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-956448191" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-956448191">
+<a href="#Output-121463477" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-121463477">
+click on login btn<br/>
+click on help btn<br/>
+click on about btn<br/>
 Element is present: <br/>
 Actual Build No is   :(build 39769)<br/>
 Expected build No is :(build 39769)<br/>
 </div>
 </td>
 <td></td>
-<td>9</td>
-<td>com.actiTime.test.TC04Test@67f639d3</td></tr>
+<td>10</td>
+<td>com.actiTime.test.TC04Test@2dc54ad4</td></tr>
 </table><p>
 </body>
 </html>

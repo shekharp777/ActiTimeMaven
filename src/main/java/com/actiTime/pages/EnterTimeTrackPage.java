@@ -24,6 +24,9 @@ public class EnterTimeTrackPage extends BasePage {
 	@FindBy(xpath="//span[.='(build 39769)']")
 	private WebElement buildNo;
 	
+	@FindBy(xpath="//a[@class='content users']")
+	private WebElement userBTN;
+	
 	
 	//Initialization
 	public EnterTimeTrackPage(WebDriver driver) {
@@ -72,6 +75,15 @@ public class EnterTimeTrackPage extends BasePage {
 			String aBuilNo = buildNo.getText();
 			return aBuilNo;
 			
-		}					
+		}
+		
+		//click on userBTN
+		public void clickOnUser()
+		{
+			userBTN.click();
+		}
+		
+		
+		
 		
 }

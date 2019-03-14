@@ -37,16 +37,20 @@ public class TC04Test extends BaseTest {
 		Thread.sleep(2000);
 		//click on login
 		lp.clickOnLogin();
+		Reporter.log("click on login btn",true);
+		
 		
 		EnterTimeTrackPage ep=new EnterTimeTrackPage(driver);
 		
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		//click on help
 		ep.clickOnHelp();
+		Reporter.log("click on help btn",true);
 		
 		Thread.sleep(2000);
 		//click on about actitime
 		ep.clickOnAbout();
+		Reporter.log("click on about btn",true);
 		
 		Thread.sleep(2000);
 		//verify build no

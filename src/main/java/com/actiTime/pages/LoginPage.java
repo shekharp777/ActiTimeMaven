@@ -18,7 +18,7 @@ public class LoginPage extends BasePage {
 		
 		@FindBy(name="pwd")
 		private WebElement pwTB;
-		
+				
 		@FindBy(xpath = ".//*[@id='loginButton']/div")
 		private WebElement loginBTN;
 		
@@ -88,6 +88,6 @@ public class LoginPage extends BasePage {
 		}
 		
 	}
-
+	
 	
 }

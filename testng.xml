@@ -2,11 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.actiTime.test.TC03Test"/>
-      <class name="com.actiTime.test.TC04Test"/>
-      <!-- <class name="com.actiTime.test.TC01Test"/> -->
-      <class name="com.actiTime.test.TC02Test"/>
-    </classes>
+    <packages><package name="com.actiTime.test"></package></packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

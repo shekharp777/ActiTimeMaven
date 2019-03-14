@@ -2,6 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[click on login btn]]>
+    </line>
+    <line>
+      <![CDATA[click on help btn]]>
+    </line>
+    <line>
+      <![CDATA[click on about btn]]>
+    </line>
+    <line>
       <![CDATA[Element is present: ]]>
     </line>
     <line>
@@ -11,17 +20,26 @@
       <![CDATA[Expected build No is :(build 39769)]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-03-02T09:55:13Z" name="Default suite" finished-at="2019-03-02T09:55:37Z" duration-ms="23878">
+  <suite started-at="2019-03-13T18:21:46Z" name="Default suite" finished-at="2019-03-13T18:22:09Z" duration-ms="22178">
     <groups>
     </groups>
-    <test started-at="2019-03-02T09:55:13Z" name="Default test" finished-at="2019-03-02T09:55:37Z" duration-ms="23878">
+    <test started-at="2019-03-13T18:21:46Z" name="Default test" finished-at="2019-03-13T18:22:09Z" duration-ms="22178">
       <class name="com.actiTime.test.TC04Test">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-03-02T09:55:13Z" name="preCondition" finished-at="2019-03-02T09:55:21Z" duration-ms="7452" status="PASS">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC04Test@729d991e]" started-at="2019-03-13T23:51:46Z" name="preCondition" finished-at="2019-03-13T23:51:54Z" duration-ms="7360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testTC04()[pri:4, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-03-02T09:55:21Z" name="testTC04" finished-at="2019-03-02T09:55:35Z" duration-ms="13992" status="PASS">
+        <test-method signature="testTC04()[pri:4, instance:com.actiTime.test.TC04Test@729d991e]" started-at="2019-03-13T23:51:54Z" name="testTC04" finished-at="2019-03-13T23:52:06Z" duration-ms="12568" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[click on login btn]]>
+            </line>
+            <line>
+              <![CDATA[click on help btn]]>
+            </line>
+            <line>
+              <![CDATA[click on about btn]]>
+            </line>
             <line>
               <![CDATA[Element is present: ]]>
             </line>
@@ -33,11 +51,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- testTC04 -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC04Test@23c30a20]" started-at="2019-03-02T09:55:35Z" name="postCondition" finished-at="2019-03-02T09:55:37Z" duration-ms="2366" status="PASS">
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC04Test@729d991e]" started-at="2019-03-13T23:52:06Z" name="postCondition" finished-at="2019-03-13T23:52:09Z" duration-ms="2181" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testTC04 status=SUCCESS method=TC04Test.testTC04()[pri:4, instance:com.actiTime.test.TC04Test@23c30a20] output=Element is present: ]]]>
+                <![CDATA[[TestResult name=testTC04 status=SUCCESS method=TC04Test.testTC04()[pri:4, instance:com.actiTime.test.TC04Test@729d991e] output=click on login btn]]]>
               </value>
             </param>
           </params>

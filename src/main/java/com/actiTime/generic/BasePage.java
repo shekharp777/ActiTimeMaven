@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
 
@@ -35,21 +36,26 @@ public class BasePage {
 		{
 			
 			Reporter.log("Title is not matching: \nExptect title is :"+eTitle,true);
-			Reporter.log("Actual Title is       :"+driver.getTitle(),true);
-			Assert.fail();
+			String aTitle = driver.getTitle();
+			
+			Reporter.log("Actual Title is  :"+aTitle,true);
+			SoftAssert sa=new SoftAssert();
+			AssertJUnit.assertEquals(aTitle, eTitle);
+			sa.assertAll();
 			return " ";
 		}
 		
 		
 	}
 	
-		//To verify the element
+	
+	
+		//To verify the element is present or not
 		public void verifyElement(WebElement element)
 		{
-			WebDriverWait wait=new WebDriverWait(driver,10);
+			WebDriverWait wait=new WebDriverWait(driver,20);
 			
-			
-			try 
+			try
 			{
 				wait.until(ExpectedConditions.visibilityOf(element));
 				Reporter.log("Element is present: ",true);
@@ -58,8 +64,9 @@ public class BasePage {
 			catch(Exception e)
 			{
 				Reporter.log("Element is not present",true);
-				Assert.fail();
-				
+				SoftAssert sa=new SoftAssert();
+				AssertJUnit.assertTrue(true);
+				sa.assertAll();
 			}
 		
 			

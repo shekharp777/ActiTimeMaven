@@ -3,11 +3,13 @@ package com.actiTime.generic;
 import java.io.File;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 
 public class GenericUtils {
 
@@ -41,5 +43,25 @@ public class GenericUtils {
 	{
 		Select select=new Select(element);
 		select.selectByVisibleText(Text);
+	}
+	
+	public static void JavaScriptPopUp(WebDriver driver)
+	{
+		Alert a=driver.switchTo().alert();
+		
+		//to get text
+		String text = a.getText();
+		Reporter.log("Text :"+text,true);
+		
+	    //to click on ok
+		a.accept();
+		
+		//to click on cancel
+		//a.dismiss();
+	}
+	
+	public static void scrollVertical(WebElement element)
+	{
+		
 	}
 }
