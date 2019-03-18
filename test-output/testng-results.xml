@@ -2,67 +2,219 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[click on login btn]]>
+      <![CDATA[UserName :admin]]>
     </line>
     <line>
-      <![CDATA[click on help btn]]>
+      <![CDATA[Password :manager]]>
     </line>
     <line>
-      <![CDATA[click on about btn]]>
+      <![CDATA[click on login button]]>
     </line>
     <line>
-      <![CDATA[Element is present: ]]>
+      <![CDATA[Click on UserMenu :]]>
     </line>
     <line>
-      <![CDATA[Actual Build No is   :(build 39769)]]>
+      <![CDATA[Click on Add user button :]]>
     </line>
     <line>
-      <![CDATA[Expected build No is :(build 39769)]]>
+      <![CDATA[Enter first name :shekhar]]>
+    </line>
+    <line>
+      <![CDATA[Enter middle name :m]]>
+    </line>
+    <line>
+      <![CDATA[Enter last name :pakale]]>
+    </line>
+    <line>
+      <![CDATA[Enter email id :shekhar.pakale@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name :shekhar123]]>
+    </line>
+    <line>
+      <![CDATA[Enter password :pass123]]>
+    </line>
+    <line>
+      <![CDATA[Enter confirm password :pass123]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :]]>
+    </line>
+    <line>
+      <![CDATA[scroll the page :]]>
+    </line>
+    <line>
+      <![CDATA[clickOnCorporateSett :]]>
+    </line>
+    <line>
+      <![CDATA[clearWorkSchedule :]]>
+    </line>
+    <line>
+      <![CDATA[enterWorkSchedule : ]]>
+    </line>
+    <line>
+      <![CDATA[clickOnEnterTimeTrack :]]>
+    </line>
+    <line>
+      <![CDATA[clickOnManageCustProject :]]>
+    </line>
+    <line>
+      <![CDATA[clickOnCreateUser :]]>
+    </line>
+    <line>
+      <![CDATA[searchUserName :pakale]]>
+    </line>
+    <line>
+      <![CDATA[selectUser :]]>
+    </line>
+    <line>
+      <![CDATA[clickOnDeleteBTN :]]>
+    </line>
+    <line>
+      <![CDATA[Text :Are you sure you want to delete this user account?]]>
+    </line>
+    <line>
+      <![CDATA[JavaScriptPopUp :]]>
+    </line>
+    <line>
+      <![CDATA[clearSearchText :]]>
+    </line>
+    <line>
+      <![CDATA[searchUserName :pakale]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching: 
+Expected title is :actiTIME - User List]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title is   :actiTIME - User List]]>
+    </line>
+    <line>
+      <![CDATA[verifyTitle :actiTIME - User List]]>
+    </line>
+    <line>
+      <![CDATA[clickOnLogOut :]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-03-13T18:21:46Z" name="Default suite" finished-at="2019-03-13T18:22:09Z" duration-ms="22178">
+  <suite started-at="2019-03-18T13:00:54Z" name="Default suite" finished-at="2019-03-18T13:02:02Z" duration-ms="68604">
     <groups>
     </groups>
-    <test started-at="2019-03-13T18:21:46Z" name="Default test" finished-at="2019-03-13T18:22:09Z" duration-ms="22178">
-      <class name="com.actiTime.test.TC04Test">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC04Test@729d991e]" started-at="2019-03-13T23:51:46Z" name="preCondition" finished-at="2019-03-13T23:51:54Z" duration-ms="7360" status="PASS">
+    <test started-at="2019-03-18T13:00:54Z" name="Default test" finished-at="2019-03-18T13:02:02Z" duration-ms="68604">
+      <class name="com.actiTime.test.TC06Test">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-18T13:00:54Z" name="preCondition" finished-at="2019-03-18T13:01:01Z" duration-ms="7326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testTC04()[pri:4, instance:com.actiTime.test.TC04Test@729d991e]" started-at="2019-03-13T23:51:54Z" name="testTC04" finished-at="2019-03-13T23:52:06Z" duration-ms="12568" status="PASS">
+        <test-method signature="testTC06()[pri:6, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-18T13:01:01Z" name="testTC06" finished-at="2019-03-18T13:02:02Z" duration-ms="61134" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[click on login btn]]>
+              <![CDATA[UserName :admin]]>
             </line>
             <line>
-              <![CDATA[click on help btn]]>
+              <![CDATA[Password :manager]]>
             </line>
             <line>
-              <![CDATA[click on about btn]]>
+              <![CDATA[click on login button]]>
             </line>
             <line>
-              <![CDATA[Element is present: ]]>
+              <![CDATA[Click on UserMenu :]]>
             </line>
             <line>
-              <![CDATA[Actual Build No is   :(build 39769)]]>
+              <![CDATA[Click on Add user button :]]>
             </line>
             <line>
-              <![CDATA[Expected build No is :(build 39769)]]>
+              <![CDATA[Enter first name :shekhar]]>
+            </line>
+            <line>
+              <![CDATA[Enter middle name :m]]>
+            </line>
+            <line>
+              <![CDATA[Enter last name :pakale]]>
+            </line>
+            <line>
+              <![CDATA[Enter email id :shekhar.pakale@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name :shekhar123]]>
+            </line>
+            <line>
+              <![CDATA[Enter password :pass123]]>
+            </line>
+            <line>
+              <![CDATA[Enter confirm password :pass123]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :]]>
+            </line>
+            <line>
+              <![CDATA[scroll the page :]]>
+            </line>
+            <line>
+              <![CDATA[clickOnCorporateSett :]]>
+            </line>
+            <line>
+              <![CDATA[clearWorkSchedule :]]>
+            </line>
+            <line>
+              <![CDATA[enterWorkSchedule : ]]>
+            </line>
+            <line>
+              <![CDATA[clickOnEnterTimeTrack :]]>
+            </line>
+            <line>
+              <![CDATA[clickOnManageCustProject :]]>
+            </line>
+            <line>
+              <![CDATA[clickOnCreateUser :]]>
+            </line>
+            <line>
+              <![CDATA[searchUserName :pakale]]>
+            </line>
+            <line>
+              <![CDATA[selectUser :]]>
+            </line>
+            <line>
+              <![CDATA[clickOnDeleteBTN :]]>
+            </line>
+            <line>
+              <![CDATA[Text :Are you sure you want to delete this user account?]]>
+            </line>
+            <line>
+              <![CDATA[JavaScriptPopUp :]]>
+            </line>
+            <line>
+              <![CDATA[clearSearchText :]]>
+            </line>
+            <line>
+              <![CDATA[searchUserName :pakale]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching: 
+Expected title is :actiTIME - User List]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title is   :actiTIME - User List]]>
+            </line>
+            <line>
+              <![CDATA[verifyTitle :actiTIME - User List]]>
+            </line>
+            <line>
+              <![CDATA[clickOnLogOut :]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testTC04 -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC04Test@729d991e]" started-at="2019-03-13T23:52:06Z" name="postCondition" finished-at="2019-03-13T23:52:09Z" duration-ms="2181" status="PASS">
+        </test-method> <!-- testTC06 -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-18T13:02:02Z" name="postCondition" finished-at="2019-03-18T13:02:02Z" duration-ms="90" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testTC04 status=SUCCESS method=TC04Test.testTC04()[pri:4, instance:com.actiTime.test.TC04Test@729d991e] output=click on login btn]]]>
+                <![CDATA[[TestResult name=testTC06 status=SUCCESS method=TC06Test.testTC06()[pri:6, instance:com.actiTime.test.TC06Test@437da279] output=UserName :admin]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- com.actiTime.test.TC04Test -->
+      </class> <!-- com.actiTime.test.TC06Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

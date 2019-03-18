@@ -1,9 +1,12 @@
 package com.actiTime.generic;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -60,8 +63,16 @@ public class GenericUtils {
 		//a.dismiss();
 	}
 	
-	public static void scrollVertical(WebElement element)
+	public static void scrollVertical(WebDriver driver)
 	{
-		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,300)");
 	}
+	
+	public static void scrollByVisibleElement(WebElement element,WebDriver driver) 
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", element);
+	}
+	
 }

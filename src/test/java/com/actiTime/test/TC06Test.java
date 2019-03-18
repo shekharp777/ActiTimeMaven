@@ -1,7 +1,5 @@
 package com.actiTime.test;
 
-
-import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -12,46 +10,46 @@ import com.actiTime.pages.EnterTimeTrackPage;
 import com.actiTime.pages.LoginPage;
 import com.actiTime.pages.UserListPage;
 
-public class TC05Test extends BaseTest {
+public class TC06Test extends BaseTest {
 	
-	@Test(priority=5)
-	public void testTC05() throws InterruptedException
+	@Test(priority=6)
+	public void testTC06() throws InterruptedException
 	{
 				//user name
-				String un = ExcelData.getData(File_Path, "sheet5", 1, 1);
+				String un = ExcelData.getData(File_Path, "sheet6", 1, 1);
 				
 				//password
-				String pwd= ExcelData.getData(File_Path, "sheet5", 1, 2);
+				String pwd= ExcelData.getData(File_Path, "sheet6", 1, 2);
 				
 				//Firstname
-				String fn = ExcelData.getData(File_Path, "sheet5", 1, 3);
+				String fn = ExcelData.getData(File_Path, "sheet6", 1, 3);
 				
 				//middle name
-				String mn = ExcelData.getData(File_Path, "sheet5", 1, 4);
+				String mn = ExcelData.getData(File_Path, "sheet6", 1, 4);
 				
 				//last name
-				String ln = ExcelData.getData(File_Path, "sheet5", 1, 5);
+				String ln = ExcelData.getData(File_Path, "sheet6", 1, 5);
 				
 				//email
-				String email=ExcelData.getData(File_Path, "sheet5", 1, 6);
+				String email=ExcelData.getData(File_Path, "sheet6", 1, 6);
 				
 				//new user
-				String newUser = ExcelData.getData(File_Path, "sheet5", 1, 7);
+				String newUser = ExcelData.getData(File_Path, "sheet6", 1, 7);
 				
 				//set new password
-				String newPass = ExcelData.getData(File_Path, "sheet5", 1, 8);
+				String newPass = ExcelData.getData(File_Path, "sheet6", 1, 8);
 				
 				//set once again password
-				String newPassCopy = ExcelData.getData(File_Path, "sheet5", 1, 9);
+				String newPassCopy = ExcelData.getData(File_Path, "sheet6", 1, 9);
 				
 				//working schedule
-				String ws = ExcelData.getData(File_Path, "sheet5", 1, 10);
+				String ws = ExcelData.getData(File_Path, "sheet6", 1, 10);
 				
 				//search name
-				String sn = ExcelData.getData(File_Path, "sheet5", 1, 11);
+				String sn = ExcelData.getData(File_Path, "sheet6", 1, 11);
 				
 				//verify title
-				String eTitle = ExcelData.getData(File_Path, "sheet5", 1, 12);
+				String eTitle = ExcelData.getData(File_Path, "sheet6", 1, 12);
 				
 							
 				//enter user name
@@ -176,29 +174,54 @@ public class TC05Test extends BaseTest {
 
 				
 				
-//		  Thread.sleep(2000); 
-//		  //click on create user btn 
-//		  up.clickOnCreateUser();
-//				Reporter.log("clickOnCreateUser :",true);
+		  Thread.sleep(2000); 
+		  //click on create user btn 
+		  up.clickOnCreateUser();
+		  Reporter.log("clickOnCreateUser :",true);
 				
 				
 		
-		  Thread.sleep(3000); 
-		  //click on cancel 
-		  up.clickOnCancel();
-		  Reporter.log("clickOnCancel :",true);
-			
+//		  Thread.sleep(3000); 
+//		  //click on cancel 
+//		  up.clickOnCancel();
+//		  Reporter.log("clickOnCancel :",true);
+//			
 		  
-		  //click on ok javascript pop up
-		  GenericUtils.JavaScriptPopUp(driver);
-		  Reporter.log("JavaScriptPopUp :",true);
-			
+//		  //click on ok javascript pop up
+//		  GenericUtils.JavaScriptPopUp(driver);
+//		  Reporter.log("JavaScriptPopUp :",true);
+//			
 				
 				Thread.sleep(2000);
 				//search the created user
 				up.searchUserName(sn);
 				 Reporter.log("searchUserName :"+sn,true);
-					
+				
+				 Thread.sleep(2000);
+					//search the created user
+					up.selectUser();
+					 Reporter.log("selectUser :",true);
+					 
+					 Thread.sleep(2000);
+						//search the created user
+						up.clickOnDeleteBTN();
+						 Reporter.log("clickOnDeleteBTN :",true);
+						 
+						//click on ok button javascript pop up
+						  GenericUtils.JavaScriptPopUp(driver);
+						  Reporter.log("JavaScriptPopUp :",true);
+						  
+						  
+						  Thread.sleep(2000);
+							//search the created user
+							up.clearSearchText();
+							 Reporter.log("clearSearchText :",true);
+						 
+						  Thread.sleep(2000);
+							//search the created user
+							up.searchUserName(sn);
+							 Reporter.log("searchUserName :"+sn,true);
+							
 			
 				Thread.sleep(2000);
 				//verify title
@@ -212,7 +235,7 @@ public class TC05Test extends BaseTest {
 				Reporter.log("clickOnLogOut :",true);
 				
 				
-				
 	}
+
 
 }

@@ -1,5 +1,8 @@
 package com.actiTime.pages;
 
+import java.util.List;
+
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -67,6 +70,19 @@ public class UserListPage extends BasePage {
 	@FindBy(xpath="//span[.='Create User']")
 	private WebElement scrollElement;
 
+	@FindBy(xpath="//button[@id='ext-gen149']")
+	private WebElement dateBox;
+	
+	@FindBy(xpath="//table[@class='x-date-inner']//td")
+	private List<WebElement> allDates;
+	
+	@FindBy(xpath="//span[.='pakale']")
+	private WebElement selectUserToDelete;
+	
+	@FindBy(xpath="//button[@id='userDataLightBox_deleteBtn']")
+	private WebElement deleteBTN;
+	
+	
 	
 	//initialization
 	public UserListPage(WebDriver driver) {
@@ -129,9 +145,32 @@ public class UserListPage extends BasePage {
 		selectTimeZoneDD.click();
 	}
 	
+	public void clickOnDate() throws InterruptedException
+	{
+		//Fill date as mm/dd/yyyy as 09/25/2013
+
+		dateBox.click();
+		
+		for(WebElement ele:allDates)
+		{
+			
+			String date=ele.getText();
+			
+			if(date.equalsIgnoreCase("28"))
+			{
+				ele.click();
+				break;
+			}
+			
+		}
+
+		
+	}
+	
+	
 	public void clickOnCorporateSett()
 	{
-		workScheduleCB.click();
+		getWorkScheduleCB().click();
 	}
 	
 	public void clearWorkSchedule()
@@ -150,20 +189,20 @@ public class UserListPage extends BasePage {
 		enterTimeTrackCB.click();
 	}
 	
+
+	
 	public void clickOnManageCustProject()
 	{
 		manageCustProjectCB.click();
 	}
 	
-	public void scrollPage()
-	{
-		scrollElement.getLocation();
-	}
-	
+
 	public void clickOnCreateUser()
 	{
 		createUserBTN.click();
 	}
+	
+	
 	
 	public void clickOnCancel()
 	{
@@ -175,9 +214,36 @@ public class UserListPage extends BasePage {
 		searchUserTB.sendKeys(sn);
 	}
 	
+	public void selectUser()
+	{
+		selectUserToDelete.click();
+	}
+	
+	public void clickOnDeleteBTN()
+	{
+		deleteBTN.click();
+	}
+	
+	public void clearSearchText()
+	{
+		searchUserTB.clear();
+	}
+	
 	public void verifyingTitle(String eTitle)
 	{
 		verifyTitle(eTitle);	
 		
+	}
+
+
+	
+	//To access private variable we have to use getter setter method.
+	public WebElement getWorkScheduleCB() {
+		return workScheduleCB;
+	}
+
+
+	public void setWorkScheduleCB(WebElement workScheduleCB) {
+		this.workScheduleCB = workScheduleCB;
 	}
 }
