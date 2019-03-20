@@ -24,7 +24,7 @@ public class EnterTimeTrackPage extends BasePage {
 	@FindBy(xpath="//span[.='(build 39769)']")
 	private WebElement buildNo;
 	
-	@FindBy(xpath="//a[@class='content users']")
+	@FindBy(xpath="//div[contains(text(),'USERS')]")
 	private WebElement userBTN;
 	
 	

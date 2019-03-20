@@ -2,6 +2,7 @@ package com.actiTime.test;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.actiTime.generic.BaseTest;
 import com.actiTime.generic.ExcelData;
@@ -11,7 +12,7 @@ import com.actiTime.pages.LoginPage;
 
 public class TC01Test extends BaseTest{
 	
-	@Test(priority=1)
+	@Test(priority=6)
 	public void testTC01() throws InterruptedException
 	{
 				//user name

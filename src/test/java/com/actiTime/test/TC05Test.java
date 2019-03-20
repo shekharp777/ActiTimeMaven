@@ -1,6 +1,7 @@
 package com.actiTime.test;
 
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
@@ -14,7 +15,7 @@ import com.actiTime.pages.UserListPage;
 
 public class TC05Test extends BaseTest {
 	
-	@Test(priority=5)
+	@Test(priority=2)
 	public void testTC05() throws InterruptedException
 	{
 				//user name
@@ -121,13 +122,13 @@ public class TC05Test extends BaseTest {
 				Reporter.log("Enter confirm password :"+newPassCopy,true);
 				
 				
-//				Thread.sleep(2000);
-//				//click on time zone
-//				up.clickOnTimeZone();
 				
-//				Thread.sleep(3000);
-//				//click on time zone london
-//				up.clickOnTimeZoneLondon();
+				//click on time zone
+				up.clickOnTimeZone();
+				
+				
+				//click on time zone london
+				up.clickOnTimeZoneLondon();
 				
 				Thread.sleep(3000);
 				up.clickOnDate();

@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -15,7 +17,7 @@ import com.actiTime.pages.LoginPage;
 
 public class TC04Test extends BaseTest {
 	
-	@Test(priority=4)
+	@Test(priority=3)
 	public void testTC04() throws InterruptedException
 	{
 		//user name

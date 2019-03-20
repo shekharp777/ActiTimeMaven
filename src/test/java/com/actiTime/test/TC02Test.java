@@ -4,6 +4,8 @@ package com.actiTime.test;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.actiTime.generic.BaseTest;
@@ -16,7 +18,7 @@ import org.testng.Reporter;
 
 public class TC02Test extends BaseTest { //test class
 	
-	@Test(priority=2)
+	@Test(priority=5)
 	public void testTC02() throws InterruptedException //test method
 	{
 		//to error message

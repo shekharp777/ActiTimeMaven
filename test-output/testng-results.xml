@@ -38,7 +38,73 @@
       <![CDATA[Enter confirm password :pass123]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :]]>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
     </line>
     <line>
       <![CDATA[scroll the page :]]>
@@ -96,16 +162,16 @@ Expected title is :actiTIME - User List]]>
       <![CDATA[clickOnLogOut :]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-03-18T13:00:54Z" name="Default suite" finished-at="2019-03-18T13:02:02Z" duration-ms="68604">
+  <suite started-at="2019-03-20T10:18:19Z" name="Default suite" finished-at="2019-03-20T10:19:34Z" duration-ms="74768">
     <groups>
     </groups>
-    <test started-at="2019-03-18T13:00:54Z" name="Default test" finished-at="2019-03-18T13:02:02Z" duration-ms="68604">
+    <test started-at="2019-03-20T10:18:19Z" name="Default test" finished-at="2019-03-20T10:19:34Z" duration-ms="74768">
       <class name="com.actiTime.test.TC06Test">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-18T13:00:54Z" name="preCondition" finished-at="2019-03-18T13:01:01Z" duration-ms="7326" status="PASS">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-20T10:18:19Z" name="preCondition" finished-at="2019-03-20T10:18:25Z" duration-ms="5650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testTC06()[pri:6, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-18T13:01:01Z" name="testTC06" finished-at="2019-03-18T13:02:02Z" duration-ms="61134" status="PASS">
+        <test-method signature="testTC06()[pri:1, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-20T10:18:25Z" name="testTC06" finished-at="2019-03-20T10:19:33Z" duration-ms="68032" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[UserName :admin]]>
@@ -144,7 +210,73 @@ Expected title is :actiTIME - User List]]>
               <![CDATA[Enter confirm password :pass123]]>
             </line>
             <line>
-              <![CDATA[Click on Date picker :]]>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
             </line>
             <line>
               <![CDATA[scroll the page :]]>
@@ -203,11 +335,11 @@ Expected title is :actiTIME - User List]]>
             </line>
           </reporter-output>
         </test-method> <!-- testTC06 -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-18T13:02:02Z" name="postCondition" finished-at="2019-03-18T13:02:02Z" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-20T10:19:33Z" name="postCondition" finished-at="2019-03-20T10:19:34Z" duration-ms="1050" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testTC06 status=SUCCESS method=TC06Test.testTC06()[pri:6, instance:com.actiTime.test.TC06Test@437da279] output=UserName :admin]]]>
+                <![CDATA[[TestResult name=testTC06 status=SUCCESS method=TC06Test.testTC06()[pri:1, instance:com.actiTime.test.TC06Test@437da279] output=UserName :admin]]]>
               </value>
             </param>
           </params>

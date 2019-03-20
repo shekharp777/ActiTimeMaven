@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.actiTime.test.TC05Test">
         <methods>
@@ -10,6 +10,13 @@
           <include name="testTC05"/>
         </methods>
       </class> <!-- com.actiTime.test.TC05Test -->
+      <class name="com.actiTime.test.TC06Test">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="testTC06"/>
+        </methods>
+      </class> <!-- com.actiTime.test.TC06Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

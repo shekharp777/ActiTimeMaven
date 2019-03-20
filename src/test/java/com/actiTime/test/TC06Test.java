@@ -1,5 +1,6 @@
 package com.actiTime.test;
 
+import org.testng.annotations.Test;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -12,7 +13,7 @@ import com.actiTime.pages.UserListPage;
 
 public class TC06Test extends BaseTest {
 	
-	@Test(priority=6)
+	@Test(priority=1)
 	public void testTC06() throws InterruptedException
 	{
 				//user name
@@ -119,19 +120,18 @@ public class TC06Test extends BaseTest {
 				Reporter.log("Enter confirm password :"+newPassCopy,true);
 				
 				
-//				Thread.sleep(2000);
-//				//click on time zone
-//				up.clickOnTimeZone();
+				Thread.sleep(2000);
+				//click on time zone
+				up.clickOnTimeZone();
 				
-//				Thread.sleep(3000);
-//				//click on time zone london
-//				up.clickOnTimeZoneLondon();
+				Thread.sleep(3000);
+				//click on time zone london
+				up.clickOnTimeZoneLondon();
 				
 				Thread.sleep(3000);
 				up.clickOnDate();
-				Reporter.log("Click on Date picker :",true);
 				
-					
+				
 				Thread.sleep(3000);
 				//scroll the page
 				// GenericUtils.scrollVertical(driver);

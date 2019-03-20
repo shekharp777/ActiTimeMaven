@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 12 09:29:05 IST 2019</td>
+<td>Started on:</td><td>Wed Mar 20 09:18:57 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>72 seconds (72473 ms)</td>
+<tr><td>Total time:</td><td>146 seconds (146691 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,21 +75,84 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.actiTime.test.TC05Test.testTC05()'><b>testTC05</b><br>Test class: com.actiTime.test.TC05Test</td>
-<td><div><pre>org.testng.TestNGException: 
-Cannot inject @Test annotated Method [testTC05] with [interface org.openqa.selenium.WebElement].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2067233363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2067233363'><pre>org.testng.TestNGException: 
-Cannot inject @Test annotated Method [testTC05] with [interface org.openqa.selenium.WebElement].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:914)
+<td title='com.actiTime.test.TC05Test.testTC05()'><b>testTC05</b><br>Test class: com.actiTime.test.TC05Test<br/>
+<a href="#Output-1617646499" onClick='toggleBox("Output-1617646499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1617646499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1617646499">
+UserName :admin<br/>
+Password :manager<br/>
+click on login button<br/>
+Click on UserMenu :<br/>
+Click on Add user button :<br/>
+Enter first name :shekhar<br/>
+Enter middle name :m<br/>
+Enter last name :pakale<br/>
+Enter email id :shekhar.pakale@gmail.com<br/>
+Enter user name :shekhar123<br/>
+Enter password :pass123<br/>
+Enter confirm password :pass123<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@id=&apos;ext-gen149&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SHEKHAR-PC&apos;, ip: &apos;192.168.43.227&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7600, moz:profile: C:\Users\Shekhar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 02683da0-2cd9-4e8a-ac0e-1b42edf2a19e
+*** Element info: {Using=xpath, value=//button[@id=&apos;ext-gen149&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.actiTime.pages.UserListPage.clickOnDate(UserListPage.java:152)
+	at com.actiTime.test.TC05Test.testTC05(TC05Test.java:134)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1617646499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1617646499'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@id=&apos;ext-gen149&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SHEKHAR-PC&apos;, ip: &apos;192.168.43.227&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7600, moz:profile: C:\Users\Shekhar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 02683da0-2cd9-4e8a-ac0e-1b42edf2a19e
+*** Element info: {Using=xpath, value=//button[@id=&apos;ext-gen149&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.actiTime.pages.UserListPage.clickOnDate(UserListPage.java:152)
+	at com.actiTime.test.TC05Test.testTC05(TC05Test.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -100,16 +163,115 @@ For more information on native dependency injection please refer to http://testn
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.runSuites(TestNG.java:1028)
-	at org.testng.TestNG.run(TestNG.java:996)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.actiTime.test.TC05Test@4659191b</td></tr>
+<td>34</td>
+<td>com.actiTime.test.TC05Test@4efac082</td></tr>
+<tr>
+<td title='com.actiTime.test.TC06Test.testTC06()'><b>testTC06</b><br>Test class: com.actiTime.test.TC06Test<br/>
+<a href="#Output-160479339" onClick='toggleBox("Output-160479339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-160479339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-160479339">
+UserName :admin<br/>
+Password :manager<br/>
+click on login button<br/>
+Click on UserMenu :<br/>
+Click on Add user button :<br/>
+Enter first name :shekhar<br/>
+Enter middle name :m<br/>
+Enter last name :pakale<br/>
+Enter email id :shekhar.pakale@gmail.com<br/>
+Enter user name :shekhar123<br/>
+Enter password :pass123<br/>
+Enter confirm password :pass123<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@id=&apos;ext-gen149&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SHEKHAR-PC&apos;, ip: &apos;192.168.43.227&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10368, moz:profile: C:\Users\Shekhar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da881cc5-61f9-4b8d-99fc-d1f69285ad69
+*** Element info: {Using=xpath, value=//button[@id=&apos;ext-gen149&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.actiTime.pages.UserListPage.clickOnDate(UserListPage.java:152)
+	at com.actiTime.test.TC06Test.testTC06(TC06Test.java:132)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace160479339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace160479339'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@id=&apos;ext-gen149&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SHEKHAR-PC&apos;, ip: &apos;192.168.43.227&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10368, moz:profile: C:\Users\Shekhar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da881cc5-61f9-4b8d-99fc-d1f69285ad69
+*** Element info: {Using=xpath, value=//button[@id=&apos;ext-gen149&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.actiTime.pages.UserListPage.clickOnDate(UserListPage.java:152)
+	at com.actiTime.test.TC06Test.testTC06(TC06Test.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>27</td>
+<td>com.actiTime.test.TC06Test@6bd61f98</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -120,10 +282,10 @@ For more information on native dependency injection please refer to http://testn
 </tr>
 <tr>
 <td title='com.actiTime.test.TC01Test.testTC01()'><b>testTC01</b><br>Test class: com.actiTime.test.TC01Test<br/>
-<a href="#Output-655059806" onClick='toggleBox("Output-655059806", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-363616706" onClick='toggleBox("Output-363616706", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-655059806" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-655059806">
+<a href="#Output-363616706" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-363616706">
 Title is matching: 
 Expected title is :actiTIME - Login<br/>
 Actual Title is   :actiTIME - Login<br/>
@@ -133,14 +295,14 @@ Actual Title is   :actiTIME - Enter Time-Track<br/>
 </div>
 </td>
 <td></td>
-<td>10</td>
-<td>com.actiTime.test.TC01Test@27f981c6</td></tr>
+<td>4</td>
+<td>com.actiTime.test.TC01Test@d9345cd</td></tr>
 <tr>
 <td title='com.actiTime.test.TC02Test.testTC02()'><b>testTC02</b><br>Test class: com.actiTime.test.TC02Test<br/>
-<a href="#Output-1539827598" onClick='toggleBox("Output-1539827598", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1624203949" onClick='toggleBox("Output-1624203949", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1539827598" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1539827598">
+<a href="#Output-1624203949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1624203949">
 user name :admin<br/>
 password :abc<br/>
 Element is present: <br/>
@@ -174,27 +336,27 @@ Expected Error message is :Username or Password is invalid. Please try again.<br
 </div>
 </td>
 <td></td>
-<td>19</td>
-<td>com.actiTime.test.TC02Test@1b11171f</td></tr>
+<td>18</td>
+<td>com.actiTime.test.TC02Test@2d710f1a</td></tr>
 <tr>
 <td title='com.actiTime.test.TC03Test.testTC03()'><b>testTC03</b><br>Test class: com.actiTime.test.TC03Test<br/>
-<a href="#Output-713939266" onClick='toggleBox("Output-713939266", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1632909815" onClick='toggleBox("Output-1632909815", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-713939266" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-713939266">
+<a href="#Output-1632909815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1632909815">
 Actual version is   :actiTIME 2017.4<br/>
 Expected version is :actiTIME 2017.4<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.actiTime.test.TC03Test@1151e434</td></tr>
+<td>com.actiTime.test.TC03Test@29215f06</td></tr>
 <tr>
 <td title='com.actiTime.test.TC04Test.testTC04()'><b>testTC04</b><br>Test class: com.actiTime.test.TC04Test<br/>
-<a href="#Output-121463477" onClick='toggleBox("Output-121463477", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1281205497" onClick='toggleBox("Output-1281205497", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-121463477" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-121463477">
+<a href="#Output-1281205497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1281205497">
 click on login btn<br/>
 click on help btn<br/>
 click on about btn<br/>
@@ -204,8 +366,8 @@ Expected build No is :(build 39769)<br/>
 </div>
 </td>
 <td></td>
-<td>10</td>
-<td>com.actiTime.test.TC04Test@2dc54ad4</td></tr>
+<td>11</td>
+<td>com.actiTime.test.TC04Test@59505b48</td></tr>
 </table><p>
 </body>
 </html>

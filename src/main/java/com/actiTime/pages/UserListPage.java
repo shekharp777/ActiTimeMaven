@@ -5,8 +5,10 @@ import java.util.List;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 import com.actiTime.generic.BasePage;
 
@@ -37,13 +39,13 @@ public class UserListPage extends BasePage {
 	@FindBy(xpath="//input[@name='passwordCopy']")
 	private WebElement confirmPassTB;
 	
-	@FindBy(xpath="(//div[@title='New York Office'])[1]")
+	@FindBy(xpath="//button[@id='ext-gen138']")
 	private WebElement timeZoneDD;
 	
-	@FindBy(xpath="//a[contains(@id,'ext-gen418')]")
+	@FindBy(xpath="//div[.='GMT +10:00']")
 	private WebElement selectTimeZoneDD;
 	
-	@FindBy(xpath="//td[.='Use corporate settings' and @valign='top']/..")
+	@FindBy(xpath="//table[@cellspacing='4']//input[@type='checkbox']")
 	private WebElement workScheduleCB;
 	
 	@FindBy(xpath="(//input[@type='text'])[12]")
@@ -70,7 +72,7 @@ public class UserListPage extends BasePage {
 	@FindBy(xpath="//span[.='Create User']")
 	private WebElement scrollElement;
 
-	@FindBy(xpath="//button[@id='ext-gen149']")
+	@FindBy(xpath="//button[@id='ext-gen148']")
 	private WebElement dateBox;
 	
 	@FindBy(xpath="//table[@class='x-date-inner']//td")
@@ -135,8 +137,10 @@ public class UserListPage extends BasePage {
 		confirmPassTB.sendKeys(newPassCopy);
 	}
 	
-	public void clickOnTimeZone()
+	public void clickOnTimeZone() throws InterruptedException
 	{
+		
+		Thread.sleep(2000);
 		timeZoneDD.click();
 	}
 	
@@ -156,12 +160,12 @@ public class UserListPage extends BasePage {
 			
 			String date=ele.getText();
 			
-			if(date.equalsIgnoreCase("28"))
+			if(date.equalsIgnoreCase("20"))
 			{
 				ele.click();
 				break;
 			}
-			
+			Reporter.log("Click on Date picker :",true);
 		}
 
 		
