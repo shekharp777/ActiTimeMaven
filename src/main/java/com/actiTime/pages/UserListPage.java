@@ -39,7 +39,7 @@ public class UserListPage extends BasePage {
 	@FindBy(xpath="//input[@name='passwordCopy']")
 	private WebElement confirmPassTB;
 	
-	@FindBy(xpath="//button[@id='ext-gen138']")
+	@FindBy(xpath="//button[@id='ext-gen139']")
 	private WebElement timeZoneDD;
 	
 	@FindBy(xpath="//div[.='GMT +10:00']")
@@ -72,7 +72,7 @@ public class UserListPage extends BasePage {
 	@FindBy(xpath="//span[.='Create User']")
 	private WebElement scrollElement;
 
-	@FindBy(xpath="//button[@id='ext-gen148']")
+	@FindBy(xpath="//button[@id='ext-gen149']")
 	private WebElement dateBox;
 	
 	@FindBy(xpath="//table[@class='x-date-inner']//td")

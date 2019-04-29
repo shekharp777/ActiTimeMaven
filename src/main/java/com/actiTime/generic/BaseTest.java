@@ -20,7 +20,7 @@ public class BaseTest implements AutoConstant
 		System.setProperty(chrome_key,chrome_value);
 		System.setProperty(gecko_key,gecko_value);
 	
-		driver=new FirefoxDriver();		
+		driver=new ChromeDriver();		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
