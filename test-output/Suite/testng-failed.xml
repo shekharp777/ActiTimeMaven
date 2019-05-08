@@ -2,14 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="myBrowser" value="firefox"/>
     <classes>
-      <class name="com.actiTime.test.TC05Test">
-        <methods>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-          <include name="testTC05"/>
-        </methods>
-      </class> <!-- com.actiTime.test.TC05Test -->
       <class name="com.actiTime.test.TC06Test">
         <methods>
           <include name="preCondition"/>

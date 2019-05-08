@@ -15,7 +15,7 @@ import com.actiTime.generic.BasePage;
 public class UserListPage extends BasePage {
 
 	//declaration
-	@FindBy(xpath="//div[.='Add User' and @class='buttonText']")
+	@FindBy(xpath="//div[@class='buttonText']")
 	private WebElement addUserBTN;
 	
 	@FindBy(xpath="//input[@name='firstName']")

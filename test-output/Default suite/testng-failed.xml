@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.actiTime.test.TC05Test">
+      <class name="com.actiTime.test.TC06Test">
         <methods>
           <include name="preCondition"/>
           <include name="postCondition"/>
-          <include name="testTC05"/>
+          <include name="testTC06"/>
         </methods>
-      </class> <!-- com.actiTime.test.TC05Test -->
+      </class> <!-- com.actiTime.test.TC06Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

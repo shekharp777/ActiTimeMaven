@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[UserName :admin]]>
@@ -38,140 +38,459 @@
       <![CDATA[Enter confirm password :pass123]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[click on login btn]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[click on help btn]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[click on about btn]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Element is present: ]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Actual Build No is   :(build 39769)]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Expected build No is :(build 39769)]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Actual version is   :actiTIME 2017.4]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Expected version is :actiTIME 2017.4]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[user name :admin]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[password :abc]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Element is present: ]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[user name :abc]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[password :manager]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Element is present: ]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[user name :a]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[password :1]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Element is present: ]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
+      <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[scroll the page :]]>
+      <![CDATA[user name :@]]>
     </line>
     <line>
-      <![CDATA[clickOnCorporateSett :]]>
+      <![CDATA[password :3]]>
     </line>
     <line>
-      <![CDATA[clearWorkSchedule :]]>
+      <![CDATA[Element is present: ]]>
     </line>
     <line>
-      <![CDATA[enterWorkSchedule : ]]>
+      <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[clickOnEnterTimeTrack :]]>
+      <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[clickOnManageCustProject :]]>
+      <![CDATA[user name :1]]>
     </line>
     <line>
-      <![CDATA[clickOnCreateUser :]]>
+      <![CDATA[password : ]]>
     </line>
     <line>
-      <![CDATA[searchUserName :pakale]]>
+      <![CDATA[Element is present: ]]>
     </line>
     <line>
-      <![CDATA[selectUser :]]>
+      <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[clickOnDeleteBTN :]]>
+      <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
-      <![CDATA[Text :Are you sure you want to delete this user account?]]>
+      <![CDATA[user name : ]]>
     </line>
     <line>
-      <![CDATA[JavaScriptPopUp :]]>
+      <![CDATA[password :5]]>
     </line>
     <line>
-      <![CDATA[clearSearchText :]]>
+      <![CDATA[Element is present: ]]>
     </line>
     <line>
-      <![CDATA[searchUserName :pakale]]>
+      <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
     </line>
     <line>
       <![CDATA[Title is matching: 
-Expected title is :actiTIME - User List]]>
+Expected title is :actiTIME - Login]]>
     </line>
     <line>
-      <![CDATA[Actual Title is   :actiTIME - User List]]>
+      <![CDATA[Actual Title is   :actiTIME - Login]]>
     </line>
     <line>
-      <![CDATA[verifyTitle :actiTIME - User List]]>
+      <![CDATA[Title is matching: 
+Expected title is :actiTIME - Enter Time-Track]]>
     </line>
     <line>
-      <![CDATA[clickOnLogOut :]]>
+      <![CDATA[Actual Title is   :actiTIME - Enter Time-Track]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-03-20T10:18:19Z" name="Default suite" finished-at="2019-03-20T10:19:34Z" duration-ms="74768">
+  <suite started-at="2019-05-04T17:44:33Z" name="Suite" finished-at="2019-05-04T17:46:55Z" duration-ms="141915">
     <groups>
     </groups>
-    <test started-at="2019-03-20T10:18:19Z" name="Default test" finished-at="2019-03-20T10:19:34Z" duration-ms="74768">
-      <class name="com.actiTime.test.TC06Test">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-20T10:18:19Z" name="preCondition" finished-at="2019-03-20T10:18:25Z" duration-ms="5650" status="PASS">
+    <test started-at="2019-05-04T17:44:33Z" name="Test" finished-at="2019-05-04T17:46:55Z" duration-ms="141915">
+      <class name="com.actiTime.test.TC03Test">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.actiTime.test.TC03Test@29215f06]" started-at="2019-05-04T17:45:51Z" name="preCondition" finished-at="2019-05-04T17:46:00Z" duration-ms="9218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testTC06()[pri:1, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-20T10:18:25Z" name="testTC06" finished-at="2019-03-20T10:19:33Z" duration-ms="68032" status="PASS">
+        <test-method signature="testTC03()[pri:4, instance:com.actiTime.test.TC03Test@29215f06]" started-at="2019-05-04T17:46:00Z" name="testTC03" finished-at="2019-05-04T17:46:00Z" duration-ms="231" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual version is   :actiTIME 2017.4]]>
+            </line>
+            <line>
+              <![CDATA[Expected version is :actiTIME 2017.4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTC03 -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC03Test@29215f06]" started-at="2019-05-04T17:46:00Z" name="postCondition" finished-at="2019-05-04T17:46:03Z" duration-ms="2171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTC03 status=SUCCESS method=TC03Test.testTC03()[pri:4, instance:com.actiTime.test.TC03Test@29215f06] output=Actual version is   :actiTIME 2017.4]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actiTime.test.TC03Test -->
+      <class name="com.actiTime.test.TC04Test">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.actiTime.test.TC04Test@59505b48]" started-at="2019-05-04T17:45:25Z" name="preCondition" finished-at="2019-05-04T17:45:36Z" duration-ms="11725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testTC04()[pri:3, instance:com.actiTime.test.TC04Test@59505b48]" started-at="2019-05-04T17:45:36Z" name="testTC04" finished-at="2019-05-04T17:45:49Z" duration-ms="12804" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click on login btn]]>
+            </line>
+            <line>
+              <![CDATA[click on help btn]]>
+            </line>
+            <line>
+              <![CDATA[click on about btn]]>
+            </line>
+            <line>
+              <![CDATA[Element is present: ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Build No is   :(build 39769)]]>
+            </line>
+            <line>
+              <![CDATA[Expected build No is :(build 39769)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTC04 -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC04Test@59505b48]" started-at="2019-05-04T17:45:49Z" name="postCondition" finished-at="2019-05-04T17:45:51Z" duration-ms="1941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTC04 status=SUCCESS method=TC04Test.testTC04()[pri:3, instance:com.actiTime.test.TC04Test@59505b48] output=click on login btn]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actiTime.test.TC04Test -->
+      <class name="com.actiTime.test.TC02Test">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.actiTime.test.TC02Test@2d710f1a]" started-at="2019-05-04T17:46:03Z" name="preCondition" finished-at="2019-05-04T17:46:13Z" duration-ms="9988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testTC02()[pri:5, instance:com.actiTime.test.TC02Test@2d710f1a]" started-at="2019-05-04T17:46:13Z" name="testTC02" finished-at="2019-05-04T17:46:36Z" duration-ms="22984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user name :admin]]>
+            </line>
+            <line>
+              <![CDATA[password :abc]]>
+            </line>
+            <line>
+              <![CDATA[Element is present: ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[user name :abc]]>
+            </line>
+            <line>
+              <![CDATA[password :manager]]>
+            </line>
+            <line>
+              <![CDATA[Element is present: ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[user name :a]]>
+            </line>
+            <line>
+              <![CDATA[password :1]]>
+            </line>
+            <line>
+              <![CDATA[Element is present: ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[user name :@]]>
+            </line>
+            <line>
+              <![CDATA[password :3]]>
+            </line>
+            <line>
+              <![CDATA[Element is present: ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[user name :1]]>
+            </line>
+            <line>
+              <![CDATA[password : ]]>
+            </line>
+            <line>
+              <![CDATA[Element is present: ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[user name : ]]>
+            </line>
+            <line>
+              <![CDATA[password :5]]>
+            </line>
+            <line>
+              <![CDATA[Element is present: ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message is   :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Expected Error message is :Username or Password is invalid. Please try again.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTC02 -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC02Test@2d710f1a]" started-at="2019-05-04T17:46:36Z" name="postCondition" finished-at="2019-05-04T17:46:38Z" duration-ms="1886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTC02 status=SUCCESS method=TC02Test.testTC02()[pri:5, instance:com.actiTime.test.TC02Test@2d710f1a] output=user name :admin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actiTime.test.TC02Test -->
+      <class name="com.actiTime.test.TC01Test">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.actiTime.test.TC01Test@d9345cd]" started-at="2019-05-04T17:46:38Z" name="preCondition" finished-at="2019-05-04T17:46:48Z" duration-ms="10442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testTC01()[pri:6, instance:com.actiTime.test.TC01Test@d9345cd]" started-at="2019-05-04T17:46:48Z" name="testTC01" finished-at="2019-05-04T17:46:53Z" duration-ms="4695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching: 
+Expected title is :actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title is   :actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching: 
+Expected title is :actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title is   :actiTIME - Enter Time-Track]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTC01 -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC01Test@d9345cd]" started-at="2019-05-04T17:46:53Z" name="postCondition" finished-at="2019-05-04T17:46:55Z" duration-ms="2006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTC01 status=SUCCESS method=TC01Test.testTC01()[pri:6, instance:com.actiTime.test.TC01Test@d9345cd] output=Title is matching: 
+Expected title is :actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actiTime.test.TC01Test -->
+      <class name="com.actiTime.test.TC06Test">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.actiTime.test.TC06Test@4efac082]" started-at="2019-05-04T17:44:33Z" name="preCondition" finished-at="2019-05-04T17:44:45Z" duration-ms="12117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testTC06()[pri:1, instance:com.actiTime.test.TC06Test@4efac082]" started-at="2019-05-04T17:44:45Z" name="testTC06" finished-at="2019-05-04T17:45:22Z" duration-ms="37288" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //button[@id='ext-gen139']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'SHEKHAR-PC', ip: '192.168.50.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7264, moz:profile: C:\Users\Shekhar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fa14b1f0-dc11-437e-a254-fb9be21ae3e7
+*** Element info: {Using=xpath, value=//button[@id='ext-gen139']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@id='ext-gen139']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'SHEKHAR-PC', ip: '192.168.50.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7264, moz:profile: C:\Users\Shekhar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fa14b1f0-dc11-437e-a254-fb9be21ae3e7
+*** Element info: {Using=xpath, value=//button[@id='ext-gen139']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.actiTime.pages.UserListPage.clickOnTimeZone(UserListPage.java:144)
+at com.actiTime.test.TC06Test.testTC06(TC06Test.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[UserName :admin]]>
@@ -209,137 +528,13 @@ Expected title is :actiTIME - User List]]>
             <line>
               <![CDATA[Enter confirm password :pass123]]>
             </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[Click on Date picker :[[FirefoxDriver: firefox on WINDOWS (476194df-5ca1-4983-8c02-7b83f3652f05)] -> xpath: //table[@class='x-date-inner']//td]]]>
-            </line>
-            <line>
-              <![CDATA[scroll the page :]]>
-            </line>
-            <line>
-              <![CDATA[clickOnCorporateSett :]]>
-            </line>
-            <line>
-              <![CDATA[clearWorkSchedule :]]>
-            </line>
-            <line>
-              <![CDATA[enterWorkSchedule : ]]>
-            </line>
-            <line>
-              <![CDATA[clickOnEnterTimeTrack :]]>
-            </line>
-            <line>
-              <![CDATA[clickOnManageCustProject :]]>
-            </line>
-            <line>
-              <![CDATA[clickOnCreateUser :]]>
-            </line>
-            <line>
-              <![CDATA[searchUserName :pakale]]>
-            </line>
-            <line>
-              <![CDATA[selectUser :]]>
-            </line>
-            <line>
-              <![CDATA[clickOnDeleteBTN :]]>
-            </line>
-            <line>
-              <![CDATA[Text :Are you sure you want to delete this user account?]]>
-            </line>
-            <line>
-              <![CDATA[JavaScriptPopUp :]]>
-            </line>
-            <line>
-              <![CDATA[clearSearchText :]]>
-            </line>
-            <line>
-              <![CDATA[searchUserName :pakale]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching: 
-Expected title is :actiTIME - User List]]>
-            </line>
-            <line>
-              <![CDATA[Actual Title is   :actiTIME - User List]]>
-            </line>
-            <line>
-              <![CDATA[verifyTitle :actiTIME - User List]]>
-            </line>
-            <line>
-              <![CDATA[clickOnLogOut :]]>
-            </line>
           </reporter-output>
         </test-method> <!-- testTC06 -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC06Test@437da279]" started-at="2019-03-20T10:19:33Z" name="postCondition" finished-at="2019-03-20T10:19:34Z" duration-ms="1050" status="PASS">
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actiTime.test.TC06Test@4efac082]" started-at="2019-05-04T17:45:22Z" name="postCondition" finished-at="2019-05-04T17:45:25Z" duration-ms="2325" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testTC06 status=SUCCESS method=TC06Test.testTC06()[pri:1, instance:com.actiTime.test.TC06Test@437da279] output=UserName :admin]]]>
+                <![CDATA[[TestResult name=testTC06 status=FAILURE method=TC06Test.testTC06()[pri:1, instance:com.actiTime.test.TC06Test@4efac082] output=UserName :admin]]]>
               </value>
             </param>
           </params>
@@ -347,6 +542,6 @@ Expected title is :actiTIME - User List]]>
           </reporter-output>
         </test-method> <!-- postCondition -->
       </class> <!-- com.actiTime.test.TC06Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
