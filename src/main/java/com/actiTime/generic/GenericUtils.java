@@ -36,105 +36,6 @@ public class GenericUtils {
 		}
 	}
 	
-	//Handling list Box drop down.
-	public static void selectByIndex(WebElement element,int index)
-	{
-		Select select=new Select(element);
-		select.selectByIndex(index);
-	}
-	
-	public static void selectByValue(WebElement element, String value)
-	{
-		Select select=new Select(element);
-		select.selectByValue(value);
-	}
-	
-	public static void SelectByVisibleText(WebElement element, String Text)
-	{
-		Select select=new Select(element);
-		select.selectByVisibleText(Text);
-	}
-	
-	//Verify list box sorted order or not.
-	public static void VerifyListboxSortedOrder(WebElement element)
-	{
-		Select sel=new Select(element);
-		
-		List<WebElement> allOptions = sel.getOptions();
-		ArrayList<String> allText=new ArrayList<String>();
-		
-		for(WebElement option:allOptions)
-		{
-			
-			String text = option.getText();
-			allText.add(text);
-			Reporter.log(text,true);
-		}
-		
-		ArrayList<String> allTextCopy =new ArrayList<String>(allText);
-		
-		Collections.sort(allText);
-		
-		if(allText.equals(allTextCopy))
-		{
-			Reporter.log("\nSorted ListBox",true);
-		}
-		else
-		{
-			Reporter.log("\nUnsorted ListBox",true);
-		}
-	}
-	
-	
-	//Verify the options are duplicate or not?
-	public static void VerifyDuplicateListbox(WebElement element)
-	{
-		Select sel=new Select(element);
-		
-		List<WebElement> allOptions = sel.getOptions();
-		ArrayList<String> allText=new ArrayList<String>();
-		
-		for(WebElement option:allOptions)
-		{
-			
-			String text = option.getText();
-			allText.add(text);
-			Reporter.log(text,true);
-		}
-		
-		
-		HashSet<String> allTextCopy =new HashSet<String>(allText);
-		
-		if(allText.size()==allTextCopy.size())
-		{
-			Reporter.log("No Duplicate listbox",true);
-		}
-		else
-		{
-			Reporter.log("duplicate ListBox",true);
-		}
-	}
-	
-	//Display the duplicate option.
-	public static void displayDuplicateListbox(WebElement element)
-	{
-		Select sel=new Select(element);
-		
-		List<WebElement> allOptions = sel.getOptions();
-		HashSet<String> allText=new HashSet<String>();
-		
-		System.out.println("\n\nduplicate ListBox");
-		for(WebElement option:allOptions)
-		{
-			
-			String text = option.getText();
-			if(!allText.add(text))
-			{
-				Reporter.log(text,true);
-		
-			}
-		}	
-	}
 	
 	
 	//javascrip Pop up accept method
@@ -175,5 +76,6 @@ public class GenericUtils {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", element);
 	}
+
 	
 }

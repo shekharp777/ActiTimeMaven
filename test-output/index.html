@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\MyProjects\git\ActiTimeMaven\testng.xml</span>
+                    <span>D:\MyProjects\git\ActiTimeMaven\testng1.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.actiTime.test.TC06Test" class="method navigator-link" hash-for-method="testTC06">testTC06</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,22 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.actiTime.test.TC01Test" class="method navigator-link" hash-for-method="testTC01">testTC01</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.actiTime.test.TC02Test" class="method navigator-link" hash-for-method="testTC02">testTC02</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.actiTime.test.TC03Test" class="method navigator-link" hash-for-method="testTC03">testTC03</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.actiTime.test.TC04Test" class="method navigator-link" hash-for-method="testTC04">testTC04</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.listBox.test.VerifyListBoxTest" class="method navigator-link" hash-for-method="testVerifyListBox">testVerifyListBox</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -146,102 +117,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.actiTime.test.TC06Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTC06">
-                  </a> <!-- testTC06 -->
-                  <span class="method-name">testTC06</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@id=&apos;ext-gen139&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;SHEKHAR-PC&apos;, ip: &apos;192.168.50.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;9.0.4&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7264, moz:profile: C:\Users\Shekhar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fa14b1f0-dc11-437e-a254-fb9be21ae3e7
-*** Element info: {Using=xpath, value=//button[@id=&apos;ext-gen139&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at com.actiTime.pages.UserListPage.clickOnTimeZone(UserListPage.java:144)
-	at com.actiTime.test.TC06Test.testTC06(TC06Test.java:125)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.actiTime.test.TC02Test</span>
+              <span class="class-name">com.listBox.test.VerifyListBoxTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testTC02">
-                  </a> <!-- testTC02 -->
-                  <span class="method-name">testTC02</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.actiTime.test.TC04Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTC04">
-                  </a> <!-- testTC04 -->
-                  <span class="method-name">testTC04</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.actiTime.test.TC03Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTC03">
-                  </a> <!-- testTC03 -->
-                  <span class="method-name">testTC03</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.actiTime.test.TC01Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTC01">
-                  </a> <!-- testTC01 -->
-                  <span class="method-name">testTC01</span>
+                  <a name="testVerifyListBox">
+                  </a> <!-- testVerifyListBox -->
+                  <span class="method-name">testVerifyListBox</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,7 +135,7 @@ Session ID: fa14b1f0-dc11-437e-a254-fb9be21ae3e7
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\MyProjects\git\ActiTimeMaven\testng.xml</span>
+            <span class="header-content">D:\MyProjects\git\ActiTimeMaven\testng1.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -259,14 +145,10 @@ Session ID: fa14b1f0-dc11-437e-a254-fb9be21ae3e7
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;myBrowser&quot; value=&quot;firefox&quot;/&gt;
     &lt;packages&gt;
-      &lt;package name=&quot;com.actiTime.test&quot;/&gt;
+      &lt;package name=&quot;com.listBox.test&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.actiTime.test.TC01Test&quot;/&gt;
-      &lt;class name=&quot;com.actiTime.test.TC02Test&quot;/&gt;
-      &lt;class name=&quot;com.actiTime.test.TC03Test&quot;/&gt;
-      &lt;class name=&quot;com.actiTime.test.TC04Test&quot;/&gt;
-      &lt;class name=&quot;com.actiTime.test.TC06Test&quot;/&gt;
+      &lt;class name=&quot;com.listBox.test.VerifyListBoxTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -280,7 +162,7 @@ Session ID: fa14b1f0-dc11-437e-a254-fb9be21ae3e7
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (5 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -306,32 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testTC06')
-data.setCell(0, 2, 'com.actiTime.test.TC06Test')
-data.setCell(0, 3, 37288);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testTC02')
-data.setCell(1, 2, 'com.actiTime.test.TC02Test')
-data.setCell(1, 3, 22984);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testTC04')
-data.setCell(2, 2, 'com.actiTime.test.TC04Test')
-data.setCell(2, 3, 12804);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testTC01')
-data.setCell(3, 2, 'com.actiTime.test.TC01Test')
-data.setCell(3, 3, 4695);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testTC03')
-data.setCell(4, 2, 'com.actiTime.test.TC03Test')
-data.setCell(4, 3, 231);
+data.setCell(0, 1, 'testVerifyListBox')
+data.setCell(0, 2, 'com.listBox.test.VerifyListBoxTest')
+data.setCell(0, 3, 2217);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -343,84 +209,35 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testTC04</span>
+              <span class="reporter-method-name">testVerifyListBox</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">click on login btn</span>
-                <span class="reporter-method-output">click on help btn</span>
-                <span class="reporter-method-output">click on about btn</span>
-                <span class="reporter-method-output">Element is present: </span>
-                <span class="reporter-method-output">Actual Build No is   :(build 39769)</span>
-                <span class="reporter-method-output">Expected build No is :(build 39769)</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testTC03</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Actual version is   :actiTIME 2017.4</span>
-                <span class="reporter-method-output">Expected version is :actiTIME 2017.4</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testTC01</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Title is matching: 
-Expected title is :actiTIME - Login</span>
-                <span class="reporter-method-output">Actual Title is   :actiTIME - Login</span>
-                <span class="reporter-method-output">Title is matching: 
-Expected title is :actiTIME - Enter Time-Track</span>
-                <span class="reporter-method-output">Actual Title is   :actiTIME - Enter Time-Track</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testTC02</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">user name :admin</span>
-                <span class="reporter-method-output">password :abc</span>
-                <span class="reporter-method-output">Element is present: </span>
-                <span class="reporter-method-output">Actual Error message is   :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">Expected Error message is :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">user name :abc</span>
-                <span class="reporter-method-output">password :manager</span>
-                <span class="reporter-method-output">Element is present: </span>
-                <span class="reporter-method-output">Actual Error message is   :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">Expected Error message is :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">user name :a</span>
-                <span class="reporter-method-output">password :1</span>
-                <span class="reporter-method-output">Element is present: </span>
-                <span class="reporter-method-output">Actual Error message is   :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">Expected Error message is :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">user name :@</span>
-                <span class="reporter-method-output">password :3</span>
-                <span class="reporter-method-output">Element is present: </span>
-                <span class="reporter-method-output">Actual Error message is   :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">Expected Error message is :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">user name :1</span>
-                <span class="reporter-method-output">password : </span>
-                <span class="reporter-method-output">Element is present: </span>
-                <span class="reporter-method-output">Actual Error message is   :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">Expected Error message is :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">user name : </span>
-                <span class="reporter-method-output">password :5</span>
-                <span class="reporter-method-output">Element is present: </span>
-                <span class="reporter-method-output">Actual Error message is   :Username or Password is invalid. Please try again.</span>
-                <span class="reporter-method-output">Expected Error message is :Username or Password is invalid. Please try again.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testTC06</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">UserName :admin</span>
-                <span class="reporter-method-output">Password :manager</span>
-                <span class="reporter-method-output">click on login button</span>
-                <span class="reporter-method-output">Click on UserMenu :</span>
-                <span class="reporter-method-output">Click on Add user button :</span>
-                <span class="reporter-method-output">Enter first name :shekhar</span>
-                <span class="reporter-method-output">Enter middle name :m</span>
-                <span class="reporter-method-output">Enter last name :pakale</span>
-                <span class="reporter-method-output">Enter email id :shekhar.pakale@gmail.com</span>
-                <span class="reporter-method-output">Enter user name :shekhar123</span>
-                <span class="reporter-method-output">Enter password :pass123</span>
-                <span class="reporter-method-output">Enter confirm password :pass123</span>
+                <span class="reporter-method-output">Select</span>
+                <span class="reporter-method-output">Idly</span>
+                <span class="reporter-method-output">Vada</span>
+                <span class="reporter-method-output">Dosa</span>
+                <span class="reporter-method-output">Poori</span>
+                <span class="reporter-method-output">Poori</span>
+                <span class="reporter-method-output">masala dosa</span>
+                <span class="reporter-method-output">idli Vada</span>
+                <span class="reporter-method-output">set Dosa</span>
+                <span class="reporter-method-output">bhel Poori</span>
+                <span class="reporter-method-output">sev Poori</span>
+                <span class="reporter-method-output">
+Unsorted ListBox</span>
+                <span class="reporter-method-output">Select</span>
+                <span class="reporter-method-output">Idly</span>
+                <span class="reporter-method-output">Vada</span>
+                <span class="reporter-method-output">Dosa</span>
+                <span class="reporter-method-output">Poori</span>
+                <span class="reporter-method-output">Poori</span>
+                <span class="reporter-method-output">masala dosa</span>
+                <span class="reporter-method-output">idli Vada</span>
+                <span class="reporter-method-output">set Dosa</span>
+                <span class="reporter-method-output">bhel Poori</span>
+                <span class="reporter-method-output">sev Poori</span>
+                <span class="reporter-method-output">
+ duplicate ListBox</span>
+                <span class="reporter-method-output">Poori</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -438,80 +255,18 @@ Expected title is :actiTIME - Enter Time-Track</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.actiTime.test.TC06Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.listBox.test.VerifyListBoxTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testTC06</span>
-                <span class="method-start">12117 ms</span>
+                <span class="method-name">testVerifyListBox</span>
+                <span class="method-start">30473 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testTC06 status=FAILURE method=TC06Test.testTC06()[pri:1, instance:com.actiTime.tes...)</span>
-                <span class="method-start">49414 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.actiTime.test.TC04Test</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(firefox)</span>
-                <span class="method-start">51742 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testTC04</span>
-                <span class="method-start">63467 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testTC04 status=SUCCESS method=TC04Test.testTC04()[pri:3, instance:com.actiTime.tes...)</span>
-                <span class="method-start">76275 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.actiTime.test.TC03Test</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(firefox)</span>
-                <span class="method-start">78217 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testTC03</span>
-                <span class="method-start">87435 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testTC03 status=SUCCESS method=TC03Test.testTC03()[pri:4, instance:com.actiTime.tes...)</span>
-                <span class="method-start">87670 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.actiTime.test.TC02Test</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(firefox)</span>
-                <span class="method-start">89842 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testTC02</span>
-                <span class="method-start">99830 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testTC02 status=SUCCESS method=TC02Test.testTC02()[pri:5, instance:com.actiTime.tes...)</span>
-                <span class="method-start">122817 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.actiTime.test.TC01Test</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(firefox)</span>
-                <span class="method-start">124704 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testTC01</span>
-                <span class="method-start">135146 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=testTC01 status=SUCCESS method=TC01Test.testTC01()[pri:6, instance:com.actiTime.tes...)</span>
-                <span class="method-start">139844 ms</span>
+                <span class="method-name">postCondition([TestResult name=testVerifyListBox status=SUCCESS method=VerifyListBoxTest.testVerifyListBox()[pri:1...)</span>
+                <span class="method-start">32694 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

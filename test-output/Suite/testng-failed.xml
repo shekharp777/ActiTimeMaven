@@ -11,6 +11,13 @@
           <include name="testTC06"/>
         </methods>
       </class> <!-- com.actiTime.test.TC06Test -->
+      <class name="com.actiTime.test.TC02Test">
+        <methods>
+          <include name="testTC02"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.actiTime.test.TC02Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -39,8 +39,8 @@ public class BaseTest implements AutoConstant
 		}
 	
 		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("http://localhost/login.do");
-		
+		//driver.get("http://localhost/login.do");
+		driver.get("file:///C:/Users/Shekhar/Desktop/HTMLforQspider/ListBox.html");
 		
 	}
 	
