@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="myBrowser" value="firefox"/>
     <classes>
-      <class name="com.listBox.test.VerifyListBoxTest">
+      <class name="com.actiTime.test.TC06Test">
         <methods>
-          <include name="testVerifyListBox"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="testTC06"/>
+        </methods>
+      </class> <!-- com.actiTime.test.TC06Test -->
+      <class name="com.actiTime.test.TC02Test">
+        <methods>
+          <include name="testTC02"/>
           <include name="preCondition"/>
           <include name="postCondition"/>
         </methods>
-      </class> <!-- com.listBox.test.VerifyListBoxTest -->
+      </class> <!-- com.actiTime.test.TC02Test -->
+      <class name="com.actiTime.test.TC04Test">
+        <methods>
+          <include name="testTC04"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.actiTime.test.TC04Test -->
+      <class name="com.actiTime.test.TC01Test">
+        <methods>
+          <include name="testTC01"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.actiTime.test.TC01Test -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

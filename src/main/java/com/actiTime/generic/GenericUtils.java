@@ -52,7 +52,7 @@ public class GenericUtils {
 	
 	}
 	
-	//javascrip Pop up dismiss method
+	//javascript Pop up dismiss method
 	public static void JavaScriptPopUpCancel(WebDriver driver)
 	{
 		Alert a=driver.switchTo().alert();

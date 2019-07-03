@@ -18,6 +18,20 @@
           <include name="postCondition"/>
         </methods>
       </class> <!-- com.actiTime.test.TC02Test -->
+      <class name="com.actiTime.test.TC04Test">
+        <methods>
+          <include name="testTC04"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.actiTime.test.TC04Test -->
+      <class name="com.actiTime.test.TC01Test">
+        <methods>
+          <include name="testTC01"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.actiTime.test.TC01Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

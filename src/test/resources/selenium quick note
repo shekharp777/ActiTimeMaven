@@ -1,0 +1,267 @@
+
+http://localhost/login.do
+
+
+How to find xpath in Chrome browser?
+--> first inspect the element which you want then copy the code in notepad and create ur own unique xpath.
+--> verify the xpath in Chrome browser using shortcut (ctrl + f) and paste your xpath to verify.
+
+How to find xpath in customize way?
+--> for username
+-->//input[@name='email']
+
+-->for link
+-->//a[text()='Sign Up']
+-->//a[contains(text(),'Sign Up')]
+-->//a[text()
+
+-->for button
+-->//button[@type='button' and @class='btn']
+-->//div[@class='dropdown']//button[@type='button' and @id ='dropdown menu']
+
+-->for checkbox
+-->//a[text()='test2 test2']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id
+
+What is the difference between get() and navigate methode?
+--> get() methode is used to enter the url
+-->navigate() methode is used to enter the url, refresh the page, goto back page and goto forword page of browser.
+
+What is use of manage() methode?
+--> manage() methode is used to maximize the window, set the size of window and set the position of the window.
+
+
+..............................................Maven..................................................
+Maven Download
+first download apache maven plugins from maven website
+
+https://maven.apache.org/download.cgi
+file name: apache-maven-3.6.0-bin.zip
+-->unzip file.
+
+setup the environment variable <right click on my computer and click properties>
+
+-->user variable
+click new path as title and path 
+M2_HOME
+D:\Project software\Selenium jars and softwares\Selenium\apache-maven-3.6.0
+
+-->system variable
+M2_HOME
+D:\Project software\Selenium jars and softwares\Selenium\apache-maven-3.6.0
+
+path
+D:\Project software\Selenium jars and softwares\Selenium\apache-maven-3.6.0\bin;
+
+then click on apply and ok button...
+
+To cross verify the mvn is installed or not
+open command prompt and type
+mvn -v
+
+it will show version of maven.... 
+
+To create maven project in cmd prompt type:
+mvn archetype:generate
+enter groupid artifactid and press enter
+
+to open a mvn comand project in eclipse we need to hit this commad to particular project path
+mvn eclipse:eclipse
+
+In eclipse before cteating a maven project you need to install maven plugins
+goto help menu -->install software-->select all 
+then type m2e and hit the enter key
+then expand general option-->m2e integration for maven checkbox select and click on next...next and finish.
+
+
+.............................................................................................................................
+
+Jenkin setup and installation
+
+Download the jenkins war file 
+go to comand prompt and type 
+java -jar path of jenkins war file
+
+first u should configure the jenkins
+go to manage jenkins-->Global Tool Configuration-->
+copy the java path and paste into jdk installation tab.
+Name: JAVA_HOME
+Path: C:\Program Files\Java\jdk-9.0.4
+uncheck the install automatic checkbox ....
+
+to create batch file for testng following comand:
+java -cp bin;jars/* org.testng.TestNG testng.xml
+
+to create batch file for maven following comand
+mvn test
+
+once you created jenkins project then we have to setup general steps
+Click on Advanced button 
+select use custom workspace checkbox
+Directory: D:\Projects\ActiTimeMaven
+
+After that click on Add build step button and select as Execute Windows batch command 
+comand: RunMe.batch
+
+
+............................................................................................................................
+
+List box:
+
+Display list box in sorted order: 
+
+List<WebElement> allOptions = sel.getOptions();
+		ArrayList<String> allText=new ArrayList<String>();
+		
+		for(WebElement option:allOptions)
+		{
+			
+			String text = option.getText();
+			allText.add(text);
+			System.out.println(text);
+		}
+		
+		Collections.sort(allText);
+		
+		System.out.println("\n\nSorted order");
+		for(String text:allText)
+		{
+			System.out.println(text);
+		}
+		
+..................................................................................................................
+		
+	List box:
+	Verify list box sorted order or not.
+	
+	List<WebElement> allOptions = sel.getOptions();
+		ArrayList<String> allText=new ArrayList<String>();
+		
+		for(WebElement option:allOptions)
+		{
+			
+			String text = option.getText();
+			allText.add(text);
+			System.out.println(text);
+		}
+		
+		
+		ArrayList<String> allTextCopy =new ArrayList<String>(allText);
+		
+		Collections.sort(allText);
+		
+		if(allText.equals(allTextCopy))
+		{
+			System.out.println("\nSorted ListBox");
+		}
+		else
+		{
+			System.out.println("\nUnsorted ListBox");
+		}
+		
+		.................................................................................................................
+		
+		List box:
+		Display options sorted order without duplicate option.
+		
+		
+		List<WebElement> allOptions = sel.getOptions();
+		TreeSet<String> allText=new TreeSet<String>();
+		
+		for(WebElement option:allOptions)
+		{
+			
+			String text = option.getText();
+			allText.add(text);
+			System.out.println(text);
+		}
+		
+		
+		System.out.println("\n\nDisplay options sorted order without duplicate option");
+		for(String text:allText)
+		{
+			System.out.println(text);
+		}
+		
+		....................................................................................................................
+		
+		
+		List box:
+		Verify the options are duplicate or not?
+		
+		List<WebElement> allOptions = sel.getOptions();
+		ArrayList<String> allText=new ArrayList<String>();
+		
+		for(WebElement option:allOptions)
+		{
+			
+			String text = option.getText();
+			allText.add(text);
+			System.out.println(text);
+		}
+		
+		
+		HashSet<String> allTextCopy =new HashSet<String>(allText);
+		
+		if(allText.size()==allTextCopy.size())
+		{
+			System.out.println("No Duplicate listbox");
+		}
+		else
+		{
+			System.out.println("duplicate ListBox");
+		}
+		....................................................................................................................
+		
+		List box:
+		Display the duplicate option.
+		
+		
+		List<WebElement> allOptions = sel.getOptions();
+		HashSet<String> allText=new HashSet<String>();
+		
+		System.out.println("\n\nduplicate ListBox");
+		for(WebElement option:allOptions)
+		{
+			
+			String text = option.getText();
+			if(!allText.add(text))
+			{
+				System.out.println(text);
+		
+			}
+		}	
+		....................................................................................................................
+		
+		
+		List Box:
+		Verify the particular option is present or not?
+		
+		
+		List<WebElement> allOptions = sel.getOptions();
+		ArrayList<String> allText=new ArrayList<String>();
+		
+		for(WebElement option:allOptions)
+		{
+			
+			String text = option.getText();
+			allText.add(text);
+			System.out.println(text);
+		}
+		
+		
+			if(allText.contains("Idly"))
+			{
+				System.out.println("\nPresent");
+			}
+			else
+			{
+				System.out.println("\nnot present");
+			}
+			
+			............................................................................................................
+			
+			
+			
+ 
+
+
